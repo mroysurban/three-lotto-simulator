@@ -1,0 +1,19 @@
+#main-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#winning-container {	
+	margin-top: 10px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.3em;
+}
+
+.winning-digit {
+	display: inline-block;
+	width: 10%;
+}
