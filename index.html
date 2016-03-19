@@ -3,11 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Three Lotto Simulator</title>
+	
+	<!-- stylesheets -->
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div id="main-container">
 		<h1>Three Lotto Simulator</h1>
 
+		<div id="bet-container">
+			<input id="first-bet" class="bet-digit" type="number" min="0" max="9">
+			<input id="second-bet" class="bet-digit" type="number" min="0" max="9">
+			<input id="third-bet" class="bet-digit" type="number" min="0" max="9">
+		</div>
+
+		<div id="winning-container">
+			<div id="first-winning" class="winning-digit"></div>
+			<div id="second-winning" class="winning-digit"></div>
+			<div id="third-winning" class="winning-digit"></div>
+		</div>	
 	</div>
+
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
