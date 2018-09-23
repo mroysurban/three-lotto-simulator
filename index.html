@@ -14,9 +14,9 @@
 		<h1>Three Lotto Simulator</h1>
 
 		<div id="bet-container">
-			<input id="first-bet" class="bet-digit" type="number" min="0" max="9">
-			<input id="second-bet" class="bet-digit" type="number" min="0" max="9">
-			<input id="third-bet" class="bet-digit" type="number" min="0" max="9">
+			<input id="first-bet" class="bet-digit" type="text">
+			<input id="second-bet" class="bet-digit" type="text">
+			<input id="third-bet" class="bet-digit" type="text">
 		</div>
 
 		<div id="winning-container">
@@ -25,6 +25,9 @@
 			<div id="third-winning" class="winning-digit"></div>
 		</div>	
 	</div>
+
+  <button onclick="init();">go</button>
+
 
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
